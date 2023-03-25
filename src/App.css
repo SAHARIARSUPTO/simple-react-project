@@ -27,6 +27,20 @@
 .App-link {
   color: #61dafb;
 }
+.country-container{
+  background-color: rgb(164, 248, 146);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+.country{
+  margin: 20px;
+  background-color: bisque;
+  border-radius: 5px;
+}
+.country img{
+  width: 150px;
+}
 
 @keyframes App-logo-spin {
   from {
